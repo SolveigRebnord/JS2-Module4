@@ -125,6 +125,8 @@ fetch("https://jsonplaceholder.typicode.com/todos/1")
     updateLoading();
   });
 
+  // vi kan bruke return inni then(),vi gjør det bare ikke fordi vi har => uten {}
+
 
 
   function updateLoading() {
